@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.isolatedsdk">
+
+    <application>
+        <service
+            android:name=".RemoteService"
+            android:exported="true"
+            android:process=":remote">
+        <intent-filter>
+            <action android:name="com.example.isolatedsdk.REMOTE_SERVICE" />
+        </intent-filter>
+    </service>
+</application>
+    </manifest>

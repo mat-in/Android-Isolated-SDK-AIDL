@@ -103,5 +103,5 @@ adb shell ps -ef
 ---
 
 ## 📄 Reference
-For **usage** and **code examples**, refer to [README.md](./README.md).
+For **usage** and **code examples**, refer to [README.md](./readme.md).
 
